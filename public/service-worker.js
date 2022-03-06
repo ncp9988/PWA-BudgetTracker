@@ -1,11 +1,11 @@
 const APP_PREFIX = 'PWA-BudgetTracker';     
 const VERSION = 'version_01';
-const CACHE_NAME = APP_PREFIX + VERSION;
+const CACHE_NAME = APP_PREFIX;
 
 const FILE_TO_CACHE = [
    "/",
     "./index.html",
-    "/css/style.css",
+    "/css/styles.css",
     "/icons/icon-72x72.png",
     "/icons/icon-96x96.png",
     "/icons/icon-128x128.png",
@@ -16,7 +16,7 @@ const FILE_TO_CACHE = [
     "/icons/icon-512x512.png",
     "/js/idb.js",
     "/js/index.js",
-    "/js/manifest.json",
+    "./manifest.json",
     
 ]
 
