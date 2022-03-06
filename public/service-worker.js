@@ -3,7 +3,7 @@ const VERSION = 'version_01';
 const CACHE_NAME = APP_PREFIX + VERSION;
 
 const FILE_TO_CACHE = [
-    "./public/index.html",
+    "./index.html",
 ]
 
 self.addEventListener('install', function (e) {
